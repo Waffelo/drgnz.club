@@ -1,14 +1,16 @@
 :root {
   --background: #171717;
   --background2: #131313;
+  --background3: #1a1818;
   --foreground: white;
   --foreground2: #c4c4c4;
+  --foreground3: #968aae;
   --purple: #722acc;
 }
 
 
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
@@ -27,6 +29,16 @@ h1 {
   color: var(--foreground);
 }
 
+.a-nostyle{
+  text-decoration: none;
+  color: var(--foreground2);
+}
+
+a {
+  color: var(--foreground3);
+  font-style: italic;
+}
+
 .sb-20 {
   padding-bottom: 20px;
 }
@@ -39,10 +51,6 @@ h1 {
   color: var(--foreground2);
 }
 
-.c-main {
-  
-
-}
 
 .t-center {
   text-align: center;
@@ -55,13 +63,14 @@ h1 {
 .bg-image {
   position: fixed;
   left: 0;
-  top: -500px;
-  background: url(https://join-lemmy.org/static/assets/images/main_img.webp);
-  background-size: 50%;
+  top: 0px;
+/*  background: url(https://join-lemmy.org/static/assets/images/main_img.webp);*/
+  background-image: url(https://static1.e926.net/data/sample/22/bf/22bf5adb95e1a3ca54b960caa0ae36cb.jpg);
+  background-size: 80%;
   width: 100%;
-  height: 75%;
+  height: 600px;
   z-index: -1;
-  filter: blur(7px);
+  filter: blur(7px) brightness(60%);
 }
 
 .t-landing-title {
@@ -105,6 +114,41 @@ h1 {
   text-decoration: none;
 }
 
+.c-services-cards-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.c-services-card {
+  display: block;
+  background-color: var(--background3);
+  width: 470px;
+  height: 480px;
+  margin: 15px;
+  border-radius: 13px;
+  padding: 20px;
+}
+
+.c-services-card-img {
+  display: block;
+  width: 430px;
+  height: 270px;
+}
+
+.c-services-card-img img {
+  border-radius: 14px;
+}
+
+.c-services-card h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+/*
 nav {
   position: fixed;
   left: 0;
@@ -129,4 +173,4 @@ nav {
 
 .nav-link:hover {
   color: var(--foreground);
-}
+}*/
