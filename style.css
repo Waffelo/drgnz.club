@@ -1,53 +1,132 @@
+:root {
+  --background: #171717;
+  --background2: #131313;
+  --foreground: white;
+  --foreground2: #c4c4c4;
+  --purple: #722acc;
+}
+
+
+* {
+  box-sizing: inherit;
+}
+
 html {
   min-height: 100%;
   width: 100%;
 }
 
 body {
-  background-color: #050506;
-  color: #a795b9;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
-  min-height: 100%;
-  flex-direction: column;
+  background-color: var(--background2);
+  color: white;
 }
 
-.main-container {
-  margin-left: 25%;
-  margin-right: 25%;
+h1 {
+  color: var(--foreground);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #ebd9ff;
-} 
-
-a {
-  color: #7858a6;
+.sb-20 {
+  padding-bottom: 20px;
 }
 
-
-a:hover {
-  color: #562982;
+.content-box {
+  max-width: 1000px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--foreground2);
 }
 
-.c-li-services a {
+.c-main {
+  
+
+}
+
+.t-center {
+  text-align: center;
+}
+
+.c-landing-hello {
+  padding-top: 80px;
+}
+
+.bg-image {
+  position: fixed;
+  left: 0;
+  top: -500px;
+  background: url(https://join-lemmy.org/static/assets/images/main_img.webp);
+  background-size: 50%;
+  width: 100%;
+  height: 75%;
+  z-index: -1;
+  filter: blur(7px);
+}
+
+.t-landing-title {
+  font-size: 45px;
+  font-weight: 900;
+  
+}
+
+.bg-dark {
+  background-color: var(--background) ;
+  width: 100%;
+  height: inherit;
+  top: 80px;
+}
+
+.c-about {
+  margin-top: 60px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.btn-landing {
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--purple);
+      border-radius: 10px;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+      margin-top: 45px;
+      font-size: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--foreground);
   font-style: normal;
-  font-weight: 800;
+}
+
+.btm a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 810px) {
-  .main-container {
-    font-size: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--background);
+} 
+
+
+.c-nav {
+  padding-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.alert-container {
-  background-color: #971d1d45;
-  border: 2px solid #bb212182;
-  box-shadow: 0px 0px 10px 1px #ff000029;
-  color: white;
-  padding: 15px;
+.nav-link {
+  text-decoration: none;
+  color: var(--foreground2);
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: var(--foreground);
 }
