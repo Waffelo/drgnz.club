@@ -2,6 +2,7 @@
   --background: #171717;
   --background2: #131313;
   --background3: #1a1818;
+  --background4: #1f1c22;
   --foreground: white;
   --foreground2: #c4c4c4;
   --foreground3: #968aae;
@@ -202,4 +203,43 @@ nav {
 }
 .c-contact-drgnz-card img {
   width: 80px;
+}
+
+.c-staff-card {
+  display: block;
+  background-color: var(--background4);
+  width: 250px;
+  border-radius: 14px;
+  margin: 10px;
+  /*border: #722acc80 1px solid;*/
+}
+
+.c-staff-card-icon img {
+  width: 30px;
+  margin-left: 8px;
+}
+
+.c-staff-card-img {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-staff-card-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 14px;
+}
+
+.c-staff-card-title h2 {
+  margin-bottom: 0px;
+  font-weight: 800;
+}
+
+.c-staff-card-description {
+  max-width: fit-content;
+  margin: 20px;
 }
