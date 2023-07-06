@@ -198,6 +198,64 @@ nav {
   color: var(--foreground);
 }
 
+@media only screen and (max-width: 810px) {
+  
+  .content-box {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  body {
+    font-size: 13px;
+  }
+  
+  nav {
+    height: 80px;
+    text-align: center;
+  }
+  
+  nav img {
+    width: 100px;
+  }
+  
+  .bg-image {
+  background-size: 300%;
+  left: 100px;
+  }
+  
+  .c-landing-hello img {
+    width: 20px;
+  }
+  
+  .btn-primary {
+    padding: 7px;
+    width: 150px;
+  }
+  
+  .c-services-card {
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .c-services-card h3 {
+    margin-top: 5px;
+    margin-bottom: -10px;
+  }
+  
+  .c-services-card-img {
+        margin: 0px;
+
+  }
+  
+  .c-services-card img {
+    width: 100%;
+    
+  }
+  
+}
+
 .c-contact-drgnz-card {
   padding: 15px;
 }
