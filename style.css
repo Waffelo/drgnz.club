@@ -205,6 +205,8 @@ nav {
     margin-right: 10%;
   }
   
+  
+  
   body {
     font-size: 13px;
   }
@@ -220,7 +222,7 @@ nav {
   
   .bg-image {
   background-size: 300%;
-  left: 100px;
+  left: 0;
   }
   
   .c-landing-hello img {
