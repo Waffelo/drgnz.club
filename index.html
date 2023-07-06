@@ -7,23 +7,27 @@
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <meta name="description" content="Free software club full of fluffy dragons.">
   <meta name="keywords" content="dragon, dragons, drgnz, drgn, waffelo, fluffy, wf, free software, software, linux, gnu/linux, gnu">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
 </head>
 <body>
   
 
-<!--  <div class="c-nav">
+<div class="c-nav">
     <nav>
       <img style="width: 40px; margin-left: 10px; margin-right: 15px; margin-top: 10px; display: inline-block; vertical-align: middle;" src="assets/logo-w.png">
       <div class="c-nav">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Services</a>
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link a-nostyle" href="#">Home</a>
+        <a class="nav-link a-nostyle" href="#about">About</a>
+        <a class="nav-link a-nostyle" href="#services">Services</a>
+        <a class="nav-link a-nostyle" href="#contact">Contact</a>
+        <a class="nav-link a-nostyle" href="#contact">Rules</a>
+
       </div>
+
     </nav>
 
-</div> -->
+</div> <!--end of navbar-->
 
   
 
@@ -38,24 +42,32 @@
           <p>
             Welcome to the Drgnz club! This is a place for GNU/Linux and free software enthusiasts. Mainly for fluffy dragons.
           </p>
-          <a href="#services"><div class="btn-landing btn">Join</div></a>
+          <a href="#services"><div  style="margin-left: auto; margin-right: auto;" class="btn-landing btn">Join</div></a>
           </div>
         </div>
-      </div>
+      </div><!--End of landing-->
       
-      <div class="c-about bg-dark">
+      <div id="about" class="c-about bg-dark">
         <div class="bg-dard">
           <div class="t-center content-box">
             <h1>Welcome!</h1>
             <p>
             We are a small community of <a href="https://www.gnu.org/philosophy/free-sw.en.html" target="_blank">Free and open-source software</a> enthusiasts. We are made out of few fluffy creatures. We are creating an ecosystem of various pieces of software that can make it easier for people to stray away from evil proprietary software.
             </p>
+            <p>
+              Connect with us on our matrix space.
+            </p>
+          <div style="display: flex; justify-content: center;">
+            
+            <a href="https://matrix.to/#/%23wf%3Adrgnz.club?via=drgnz.club" target="_blank"><div class="btn-primary btn">Join matrix space</div></a>
+            <a href="https://social.drgnz.club/drgnz-club" target="_blank"><div class="btn-primary btn">News</div></a>
+          </div>
             <div class="sb-20"></div>
           </div>
         </div>
-      </div>
+      </div><!-- end of about-->
 
-      <div  id="services" class="c-services content-box t-center">
+      <div  id="services" class="c-services  t-center">
         <h1>Services</h1>
         <p>
           Here are various dragon services that we offer. They are all free, both as in freedom and price. Most of these services can interact with other services
@@ -72,7 +84,7 @@
             </div>
             <h3>Matrix</h3>
             <p>
-              Matrix is a decentralized, encrypted and federated self-hosted chatting platform.
+            A decentralized, encrypted and federated chatting platform.
             </p>
           </div>
           </a>
@@ -91,20 +103,127 @@
           </a>
 
 
+          <a class="a-nostyle" href="https://video.drgnz.club" target="_blank">
+          <div class="c-services-card">
+            <div class="c-services-card-img">
+              <img src="assets/services/peertube.png">
+            </div>
+            <h3>Peertube</h3>
+            <p>
+              An independent fediverse compatible video sharing platform that anyone can host.
+            </p>
+          </div>
+          </a>
+
+          <a class="a-nostyle" href="https://searx.drgnz.club" target="_blank">
+          <div class="c-services-card">
+            <div class="c-services-card-img">
+              <img src="assets/services/searx.png">
+            </div>
+            <h3>SearXNG</h3>
+            <p>
+              A simple and private search that indexes results from various other search engines like Google, Bing, Duckduckgo, etc...
+            </p>
+          </div>
+          </a>
 
 
-        </div>
 
-        </div>
-      </div>
+          <a class="a-nostyle" href="https://git.drgnz.club" target="_blank">
+          <div class="c-services-card">
+            <div class="c-services-card-img">
+              <img src="assets/services/forgejo.png">
+            </div>
+            <h3>Forgejo</h3>
+            <p>
+              Forgejo is an easy and selfhostable git interface.
+            </p>
+          </div>
+          </a>
 
+ 
+          <a class="a-nostyle" href="https://yt.drgnz.club" target="_blank">
+          <div class="c-services-card">
+            <div class="c-services-card-img">
+              <img src="assets/services/invidious.png">
+            </div>
+            <h3>Invidious</h3>
+            <p>
+              A lightweight Youtube front-end which doesn't have any ads, tracking. This front-end doesn't require JavaScript.
+            </p>
+          </div>
+          </a>
+
+          <a class="a-nostyle" href="https://lr.drgnz.club" target="_blank">
+          <div class="c-services-card">
+            <div class="c-services-card-img">
+              <img src="assets/services/libreddit.png">
+            </div>
+            <h3>Invidious</h3>
+            <p>
+              A lightweight Youtube front-end which doesn't have any ads, tracking. This front-end doesn't require JavaScript.
+            </p>
+          </div>
+          </a>   
+
+          <a class="a-nostyle" href="#" target="_blank">
+          <div class="c-services-card">
+            <div class="c-services-card-img">
+              <img src="assets/services/minecraft.png">
+            </div>
+            <h3>Minecraft server</h3>
+            <p>
+              Our own small towny vanilla Minecraft server. This server supports cracked clients and doesn't connect to Mojang/Microsoft servers.
+            </p>
+          </div>
+          </a>
+
+        </div><!-- end of services box-->
+
+        </div><!-- end of services-->
+      <br><br><br>
+      <div class="contact  t-center bg-dark" id="contact"><br>
+        <h1>Contact</h1>
+        <p>If you have any questions, suggestions or issues, you can contact us via listed options.</p>
+    
+        <div class="c-services-cards-box">
+   
+          <a href="https://social.drgnz.club/drgnz-club" class="a-nostyle" target="_blank">
+          <div class="c-contact-drgnz-card">
+            <img style="filter: invert(1);" src="assets/logos/fedi.svg">
+            <h4>Fediverse</h4>
+          </div>
+          </a>
+
+          <a href="https://matrix.to/#/%23den%3Adrgnz.club?via=drgnz.club&via=matrix.org&via=beeper.com" class="a-nostyle" target="_blank">
+            <div class="c-contact-drgnz-card">
+              <img src="assets/logos/matrix.png">
+              <h4>Matrix Chat</h4>
+            </div>
+            </a>
+
+          <a href="mailto:admin@drgnz.club" class="a-nostyle">
+            <div class="c-contact-drgnz-card">
+              <img style="filter: invert(1);" src="assets/logos/email.svg">
+              <h4>Email</h4>
+            </div>
+            </a>
+  
+
+        </div><!--end of cards box-->
+
+      </div><!--end of conatct-->
+
+
+
+    </div><!-- end of main-->
 
     </div>
   </div>
   
 
   <div class="c-footer">
-  </div>
+  </div><!-- end of footer-->
 
 
 </body>

@@ -8,6 +8,9 @@
   --purple: #722acc;
 }
 
+::selection {
+  background-color: var(--purple);
+}
 
 * {
   box-sizing: border-box;
@@ -20,7 +23,7 @@ html {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   background-color: var(--background2);
   color: white;
 }
@@ -29,14 +32,17 @@ h1 {
   color: var(--foreground);
 }
 
+
 .a-nostyle{
   text-decoration: none;
   color: var(--foreground2);
+  font-style: normal;
 }
 
 a {
   color: var(--foreground3);
   font-style: italic;
+  text-decoration: none;
 }
 
 .sb-20 {
@@ -61,7 +67,7 @@ a {
 }
 
 .bg-image {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0px;
 /*  background: url(https://join-lemmy.org/static/assets/images/main_img.webp);*/
@@ -69,6 +75,7 @@ a {
   background-size: 80%;
   width: 100%;
   height: 600px;
+  max-height: 600px;
   z-index: -1;
   filter: blur(7px) brightness(60%);
 }
@@ -81,9 +88,10 @@ a {
 
 .bg-dark {
   background-color: var(--background) ;
-  width: 100%;
   height: inherit;
   top: 80px;
+  left: 0;
+  width: 100%;
 }
 
 .c-about {
@@ -104,10 +112,23 @@ a {
       font-size: 20px;
 }
 
+.btn-primary {
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--purple);
+      border-radius: 10px;
+      padding: 10px;
+      width: 180px;
+      text-align: center;
+      margin-top: 45px;
+      font-size: 15px;
+}
+
 .btn {
   text-decoration: none;
   color: var(--foreground);
   font-style: normal;
+  margin: 5px;
 }
 
 .btm a {
@@ -120,13 +141,15 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  justify-content: center;
+  max-width: 1550px;
 }
 
 .c-services-card {
   display: block;
   background-color: var(--background3);
-  width: 470px;
-  height: 480px;
+  width: 419px;
+  height: 445px;
   margin: 15px;
   border-radius: 13px;
   padding: 20px;
@@ -134,12 +157,11 @@ a {
 
 .c-services-card-img {
   display: block;
-  width: 430px;
-  height: 270px;
 }
 
 .c-services-card-img img {
   border-radius: 14px;
+  width: 374px;
 }
 
 .c-services-card h3 {
@@ -148,9 +170,8 @@ a {
 }
 
 
-/*
 nav {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
@@ -165,6 +186,7 @@ nav {
   vertical-align: middle;
 }
 
+
 .nav-link {
   text-decoration: none;
   color: var(--foreground2);
@@ -173,4 +195,11 @@ nav {
 
 .nav-link:hover {
   color: var(--foreground);
-}*/
+}
+
+.c-contact-drgnz-card {
+  padding: 15px;
+}
+.c-contact-drgnz-card img {
+  width: 80px;
+}
