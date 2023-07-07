@@ -304,3 +304,10 @@ nav {
   max-width: fit-content;
   margin: 20px;
 }
+
+.c-rules-list {
+  display: inline-block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
