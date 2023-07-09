@@ -150,10 +150,15 @@ a {
   display: block;
   background-color: var(--background3);
   width: 419px;
-  height: 445px;
+  height: 400px;
   margin: 15px;
   border-radius: 13px;
   padding: 20px;
+}
+
+.c-services-card h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .c-services-card-img {
