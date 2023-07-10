@@ -149,11 +149,12 @@ a {
 .c-services-card {
   display: block;
   background-color: var(--background3);
-  width: 419px;
-  height: 400px;
+  width: 385px;
+  height: 381px;
   margin: 15px;
   border-radius: 13px;
   padding: 20px;
+  font-size: 16px;
 }
 
 .c-services-card h3 {
@@ -167,7 +168,7 @@ a {
 
 .c-services-card-img img {
   border-radius: 14px;
-  width: 374px;
+  width: 345px;
 }
 
 .c-services-card h3 {
