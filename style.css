@@ -34,6 +34,8 @@ h1 {
 }
 
 
+
+
 .a-nostyle{
   text-decoration: none;
   color: var(--foreground2);
@@ -81,6 +83,20 @@ a {
   filter: blur(7px) brightness(60%);
 }
 
+.bg-mc-image {
+  position: absolute;
+  left: 0;
+  top: 0px;
+/*  background: url(https://join-lemmy.org/static/assets/images/main_img.webp);*/
+  background-image: url(https://i0.wp.com/staticc.sportskeeda.com/editor/2023/05/3af16-16838901158114-1920.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 600px;
+  max-height: 600px;
+  z-index: -1;
+  filter: blur(7px) brightness(50%);
+}
+
 .t-landing-title {
   font-size: 45px;
   font-weight: 900;
@@ -88,16 +104,14 @@ a {
 }
 
 .bg-dark {
-  background-color: var(--background) ;
-  height: inherit;
-  top: 80px;
-  left: 0;
+  background-color: var(--background);
+  left: 0px;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .c-about {
   margin-top: 60px;
-  padding-bottom: 25px;
   margin-bottom: 20px;
 }
 
@@ -351,4 +365,35 @@ ol>li:before {
   background-color: var(--background4);
   padding: 10px;
   border-radius: 14px;
+}
+
+.c-mc-ipbar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 12px;
+  background-color: var(--background3);
+}
+
+.c-mc-ipbar-l {
+  margin: 10px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.c-mc-ipbar-r {
+  margin-left: auto;
+  background-color: var(--background2);
+  padding: 10px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.c-mc-ipbar-r:hover {
+  background-color: var(--background3);
+}
+
+.c-mc-ipbar-r img {
+  width: 19px;
+  filter: invert(1);
 }
