@@ -380,6 +380,8 @@ ol>li:before {
   margin: 10px;
   font-weight: 500;
   margin-left: 20px;
+  line-height: 0px;
+  margin-top: 23px;
 }
 
 .c-mc-ipbar-r {
