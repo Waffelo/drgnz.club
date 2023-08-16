@@ -146,6 +146,10 @@ a {
   margin: 5px;
 }
 
+.btn:hover {
+  filter: brightness(87%);
+}
+
 .btm a {
   text-decoration: none;
 }
@@ -298,6 +302,11 @@ nav {
 .c-staff-card-icon img {
   width: 30px;
   margin-left: 8px;
+}
+
+.c-staff-card-icon:hover {
+  filter: brightness(75%);
+  scale: 95%;
 }
 
 .c-staff-card-img {
