@@ -74,13 +74,13 @@ a {
   left: 0;
   top: 0px;
 /*  background: url(https://join-lemmy.org/static/assets/images/main_img.webp);*/
-  background-image: url(https://static1.e926.net/data/sample/22/bf/22bf5adb95e1a3ca54b960caa0ae36cb.jpg);
-  background-size: 80%;
+  background-image: url(https://images.unsplash.com/photo-1601260996894-b03da2bd2c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=893&q=80);
+  background-size: 109%;
   width: 100%;
   height: 600px;
   max-height: 600px;
   z-index: -1;
-  filter: blur(7px) brightness(60%);
+  filter: blur(4px) brightness(60%);
 }
 
 .bg-mc-image {
@@ -301,17 +301,17 @@ nav {
 }
 
 .c-staff-card-img {
-  margin: 20px;
-  width: 200px;
-  height: 200px;
+  margin: 15px;
+  width: 225px;
+  height: 220px;
   border-radius: 14px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .c-staff-card-img img {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 14px;
 }
 
@@ -358,11 +358,12 @@ ol>li:before {
 .c-donate-card-img img {
   width: 200px;
   border-radius: 14px;
+  padding-bottom: 5px;
 }
 
 .c-donate-card {
   margin: 15px;
-  background-color: var(--background4);
+  background-color: var(--background3);
   padding: 10px;
   border-radius: 14px;
 }
