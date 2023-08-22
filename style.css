@@ -6,7 +6,7 @@
   --foreground: white;
   --foreground2: #c4c4c4;
   --foreground3: #968aae;
-  --purple: #722acc;
+  --purple: #4a1b84;
 }
 
 ::selection {
@@ -184,6 +184,11 @@ a {
   display: block;
 }
 
+.c-services-card:hover {
+  filter: brightness(90%);
+  scale: 98%;
+}
+
 .c-services-card-img img {
   border-radius: 14px;
   width: 345px;
@@ -283,12 +288,33 @@ nav {
 }
 
 .c-contact-drgnz-card {
-  padding: 15px;
+  background-color: var(--background2);
+  border-radius: 12px;
+  margin: 10px;
+  width: 90px;
 }
+
+
 .c-contact-drgnz-card img {
   width: 80px;
   margin: 5px;
+  padding: 10px;
 }
+
+.c-contact-drgnz-card h4 {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  padding:3px;
+  background-color: var(--purple);
+  width: 100%;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.c-contact-drgnz-card:hover {
+  filter: brightness(90%);
+  scale: 98%;
+}
+
 
 .c-staff-card {
   display: block;
@@ -304,6 +330,8 @@ nav {
   margin-left: 8px;
 }
 
+
+
 .c-staff-card-icon:hover {
   filter: brightness(75%);
   scale: 95%;
@@ -316,6 +344,10 @@ nav {
   border-radius: 14px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.c-staff-card-img:hover {
+  filter: brightness(85%);
 }
 
 .c-staff-card-img img {
