@@ -207,6 +207,7 @@ nav {
   width: 100%;
   height: 30px;
   background-color: var(--background);
+  z-index: 1;
 } 
 
 
@@ -394,6 +395,20 @@ ol>li:before {
   font-weight:bold;
   text-align:right;
   content:counter(item) ".";
+}
+
+.c-rules-add {
+  padding: 10px;
+  background-color: var(--background3);
+  border-radius: 12px;
+  width: 100px;
+  margin: 10px;
+  height: 55px;
+}
+
+.c-rules-add:hover {
+  filter: brightness(90%);
+  scale: 98%;
 }
 
 .c-donate-card-img img {
