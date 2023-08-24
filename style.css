@@ -78,7 +78,7 @@ a {
   background-size: 109%;
   width: 100%;
   height: 600px;
-  max-height: 600px;
+  max-height: 550px;
   z-index: -1;
   filter: blur(4px) brightness(60%);
 }
@@ -144,6 +144,7 @@ a {
   color: var(--foreground);
   font-style: normal;
   margin: 5px;
+  box-shadow: #0000003d 5px 5px 10px;
 }
 
 .btn:hover {
@@ -173,10 +174,11 @@ a {
   border-radius: 13px;
   padding: 20px;
   font-size: 16px;
+  box-shadow: #0000003d 5px 5px 10px;
 }
 
 .c-services-card h3 {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
@@ -244,10 +246,11 @@ nav {
   nav {
     height: 90px;
     text-align: center;
+    display: none;
   }
   
   nav img {
-    width: 100px;
+    padding-top: 10px;
   }
   
   .bg-image {
@@ -293,6 +296,7 @@ nav {
   border-radius: 12px;
   margin: 10px;
   width: 90px;
+  box-shadow: #0000003d 5px 5px 10px;
 }
 
 
@@ -404,6 +408,7 @@ ol>li:before {
   width: 100px;
   margin: 10px;
   height: 55px;
+  box-shadow: #0000003d 5px 5px 10px;
 }
 
 .c-rules-add:hover {
@@ -422,6 +427,7 @@ ol>li:before {
   background-color: var(--background3);
   padding: 10px;
   border-radius: 14px;
+  box-shadow: #0000003d 5px 5px 10px;
 }
 
 .c-mc-ipbar {
