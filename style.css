@@ -75,8 +75,8 @@ a {
   left: 0;
   top: 0px;
 /*  background: url(https://join-lemmy.org/static/assets/images/main_img.webp);*/
-  background-image: url(https://images.unsplash.com/photo-1601260996894-b03da2bd2c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=893&q=80);
-  background-size: 109%;
+  background-image: url(https://images.unsplash.com/photo-1579305626036-d173361705f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+  background-size: 100%;
   width: 100%;
   height: 600px;
   max-height: 550px;
@@ -208,7 +208,7 @@ nav {
   left: 0;
   top: 0;
   width: 100%;
-  height: 30px;
+  height: 35px;
   background-color: var(--background);
   z-index: 1;
 } 
